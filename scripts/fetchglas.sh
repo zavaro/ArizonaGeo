@@ -2,6 +2,8 @@
 
 # Pulls data from NASA GLAS db for Spring Equinox for each year
 
+cd ~/project/data
+
 for year in 2003 2004 2005 2006 2007 2008 2009; do
 	for month in 03; do
 		for day in 20; do
